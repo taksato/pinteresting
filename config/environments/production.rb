@@ -79,5 +79,5 @@ Rails.application.configure do
 
   # Required for heroku
   # Note to set this to your actual host
-  config.action_mailer.default_url_options = { :host => 'localhost' }
+  config.action_mailer.default_url_options = { :host => 'yamastagram.com' }
 end
