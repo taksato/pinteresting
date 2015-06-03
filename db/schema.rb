@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150601155343) do
+ActiveRecord::Schema.define(version: 20150603125954) do
 
   create_table "pins", force: :cascade do |t|
     t.string   "description"
