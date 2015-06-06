@@ -1,12 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Luckiest+Guy);
 
-$body-bg:						#ecf0f1;
-$font-family-sans-serif: 		'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
-$navbar-default-bg:				white;
+$body-bg:											#2980b9;
+$font-family-sans-serif: 			'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+$navbar-default-bg:						white;
 $navbar-default-brand-color:	#c0392b;
-$navbar-height:					45px;
-$brand-primary:					#c0392b;
-$jumbotron-bg:					white;
+$navbar-height:								45px;
+$brand-primary:								#c0392b;
+$jumbotron-bg:								white;
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
@@ -17,4 +18,9 @@ $jumbotron-bg:					white;
 
 .navbar-brand{
 	font-weight: bold;
+	font-family: 'Luckiest Guy', cursive;
+}
+
+h1 {
+	font-family: 'Luckiest Guy', cursive;
 }
